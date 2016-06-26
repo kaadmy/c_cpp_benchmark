@@ -1,5 +1,5 @@
 
-# Simple C/C++ benchmarking test programs
+# Simple C/C++ benchmarking test program
 
 By KaadmY
 
@@ -7,6 +7,8 @@ By KaadmY
 
 Simple benchmarking test programs for C and C++ for simple operations available
 in both C and C++.
+
+Currently only works with *nix systems
 
 ## License
 
