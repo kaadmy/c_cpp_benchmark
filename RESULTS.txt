@@ -1,0 +1,55 @@
+Compiling C test program...
+gcc  -O0 -Wall -Wextra -lrt -Wno-unused-value -o benchmark-c test.c
+Compiling C++ test program...
+g++  -O0 -Wall -Wextra -lrt -Wno-unused-value -o benchmark-cxx test.c
+C test program running
+Iterative programs are run at 100000000 iterations.
+[BEGIN] iteration[for](single +1)
+[END] took 0.516627311707 seconds
+
+[BEGIN] iteration[while](single +1)
+[END] took 0.519922733307 seconds
+
+[BEGIN] iteration[for](single -1)
+[END] took 0.550340414047 seconds
+
+[BEGIN] iteration[while](single -1)
+[END] took 0.521619081497 seconds
+
+[BEGIN] iteration[for](single +1, single int /3)
+[END] took 0.514092922211 seconds
+
+[BEGIN] iteration[while](single +1, single int /3)
+[END] took 0.531550168991 seconds
+
+[BEGIN] iteration[for](single +1, single float /3.2)
+[END] took 0.537467002869 seconds
+
+[BEGIN] iteration[while](single +1, single float /3.2)
+[END] took 0.532372236252 seconds
+
+C++ test program running
+Iterative programs are run at 100000000 iterations.
+[BEGIN] iteration[for](single +1)
+[END] took 0.580177783966 seconds
+
+[BEGIN] iteration[while](single +1)
+[END] took 0.564184665680 seconds
+
+[BEGIN] iteration[for](single -1)
+[END] took 0.585549831390 seconds
+
+[BEGIN] iteration[while](single -1)
+[END] took 0.568485975266 seconds
+
+[BEGIN] iteration[for](single +1, single int /3)
+[END] took 0.566844463348 seconds
+
+[BEGIN] iteration[while](single +1, single int /3)
+[END] took 0.565629482269 seconds
+
+[BEGIN] iteration[for](single +1, single float /3.2)
+[END] took 0.623994112015 seconds
+
+[BEGIN] iteration[while](single +1, single float /3.2)
+[END] took 0.623363256454 seconds
